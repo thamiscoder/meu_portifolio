@@ -8,11 +8,12 @@
 
 body {
     font-family: 'Poppins', sans-serif;
-    background-color: #f0f0f0;
+    background-color: White;
 }
 
 header {
-    display: fixed;
+    display: flex;
+    position: fixed;
     background-color: #393834;
     backdrop-filter: blur(10px); /*TESTAR DEPOIS E VER SE ESTÁ FUNCIONANDO*/
     -webkit-backdrop-filter: blur(10px); /*TESTAR DEPOIS E VER SE ESTÁ FUNCIONANDO*/
@@ -52,3 +53,6 @@ section {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
+#about {
+    background-color: #e2dddd;
+}
