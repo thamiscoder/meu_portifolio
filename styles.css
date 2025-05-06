@@ -13,8 +13,7 @@ body {
 
 header {
     background-color: #393834;
-    backdrop-filter: blur(10px); /*TESTAR DEPOIS E VER SE ESTÁ FUNCIONANDO*/
-    -webkit-backdrop-filter: blur(10px); /*TESTAR DEPOIS E VER SE ESTÁ FUNCIONANDO*/
+    position: fixed;
     color: white;
     padding: 20px;
     width: 100%;
@@ -47,58 +46,25 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    height: 100vh;
+    margin-top: 150px;
 }
-
 
 #about {
     display: flex;
-    text-align: center;
+    flex-direction: row;
     align-items: center;
-    background-color: #393834;
-    color: white;
-    width: 100%;
-    height: 100%;
-    margin-top: 80px;
+    justify-content: center;
+    gap: 20px;
 }
 
-div #img {
-    display: flex;
-    justify-content: center;
-    width: 50px;
-    height: 50px;
+#img01 {
+    border: 2px solid white;
+    width: 250px;
+    margin: auto;
 }
 
 #text {
-    margin-left: 50px;
-    text-align: left;
-}
-
-#text h2 {
-    font-size: 24px;
-    margin-bottom: 10px;
-}
-
-#project {
-    display: flex;
-    text-align: center;
-    align-items: center;
-    background-color: #e2dddd;
-    color: #8e8c83;
-    width: 100%;
-    height: 100%;
-}
-
-.moldura {
-    display: flex; 
-    border: 10px solid white; 
-    border-bottom: 50px solid white;
-    border-radius: 5px;
-    padding: 20px; 
+    border: 2px solid white;
     width: 250px;
-    height: 250px;
-    gap: 10px; 
-    justify-content: center;
-    background-color: transparent; 
+    margin: auto;
 }
