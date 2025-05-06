@@ -44,26 +44,44 @@ a:hover {
     color: #8e8c83;
 }
 
-main {
+section {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 150px;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+}
+
+#about h1 {
+    color: #e2dddd;
 }
 
 #about {
-    margin: 150px auto;
-    width: 100vw;
+    color: #e2dddd;
 }
 
-#text {
-    color: white;
+#project {
+    background-color: #e2dddd;
 }
 
-img {
-    float: left;
-    border: 2px solid white;
-    margin: px 50px 50px ;
-    width: 250px;
-    height: 250px;
+#cv {
+    background-color: #e2dddd;
+}
+
+h1 {
+    color: #8e8c83;
+}
+
+#contact {
+    color: #e2dddd;
+}
+
+
+footer {
+    color: #e2dddd;
+    font-style: italic;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.541);
+    padding: 5px;
 }
