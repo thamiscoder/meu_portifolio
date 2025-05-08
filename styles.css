@@ -77,7 +77,6 @@ section {
     flex-direction: column;
     gap: 40px;
     background-color: #e2dddd;
-    width: 100%;
 }
 
 #project h1 {
