@@ -51,6 +51,7 @@ section {
     justify-content: center;
     min-height: 100vh;
     text-align: center;
+    color: #8e8c83;
 }
 
 #about {
@@ -68,6 +69,36 @@ section {
 .text {
     text-align: justify;
 }
+
+#project {
+    background-color: #e2dddd;
+}
+
+#container {
+    display: flex;
+    flex-wrap: wrap; /* Permite que os itens se movam para a próxima linha */
+    justify-content: center; /* Centraliza os itens horizontalmente */
+    gap: 20px; /* Espaço entre os itens */
+    padding: 20px;
+}
+
+.moldura {
+    width: 300px;
+    height: 400px;
+    background-color: transparent;
+    border: 10px solid white;
+    border-bottom: 50px solid white;
+    
+}
+
+iframe {
+    display: block;
+    width: 100%;
+    height: 100%;
+    border: none;   
+}
+
+
 
 
 
