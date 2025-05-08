@@ -49,39 +49,27 @@ section {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 100vh;
+    min-height: 100vh;
     text-align: center;
-}
-
-#about h1 {
-    color: #e2dddd;
 }
 
 #about {
+    display: flex;
+    flex-direction: row; /* Alinha os elementos lado a lado */
+    align-items: center; /* Centraliza verticalmente */
+    justify-content: center; /* Centraliza horizontalmente */
+    gap: 200px; /* Espaço entre a imagem e o texto */
+    width: 80%;
+    max-width: 1200px;
+    margin: auto;
     color: #e2dddd;
 }
 
-#project {
-    background-color: #e2dddd;
-}
-
-#cv {
-    background-color: #e2dddd;
-}
-
-h1 {
-    color: #8e8c83;
-}
-
-#contact {
-    color: #e2dddd;
+.text {
+    text-align: justify;
 }
 
 
-footer {
-    color: #e2dddd;
-    font-style: italic;
-    text-align: center;
-    background-color: rgba(0, 0, 0, 0.541);
-    padding: 5px;
-}
+
+
+
