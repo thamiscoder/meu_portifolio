@@ -15,13 +15,14 @@ body {
 }
 
 header {
-    background-color: #393834;
+    background-color: #393834df;
     position: fixed;
     padding: 20px;
     width: 100%;
     top: 0;
     text-align: center;
     z-index: 1000; /* Certifique-se de que é maior que das molduras */
+    backdrop-filter: blur(5px);
 }
 
 nav ul {
@@ -151,6 +152,7 @@ i:hover {
 #cv {
     background-color: #e2dddd;
 }
+
 
 
 
