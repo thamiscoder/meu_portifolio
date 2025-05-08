@@ -21,6 +21,7 @@ header {
     width: 100%;
     top: 0;
     text-align: center;
+    z-index: 1000; /* Certifique-se de que é maior que das molduras */
 }
 
 nav ul {
@@ -71,15 +72,28 @@ section {
 }
 
 #project {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
     background-color: #e2dddd;
+}
+
+#project h1 {
+    margin-top: 28px;
+    font-size: 2em;
+}
+
+#project p {
+    font-weight: bolder;
+    padding-top: 10px;
 }
 
 #container {
     display: flex;
     flex-wrap: wrap; /* Permite que os itens se movam para a próxima linha */
     justify-content: center; /* Centraliza os itens horizontalmente */
-    gap: 20px; /* Espaço entre os itens */
     padding: 20px;
+    margin-bottom: 180px;
 }
 
 .moldura {
@@ -88,7 +102,14 @@ section {
     background-color: transparent;
     border: 10px solid white;
     border-bottom: 50px solid white;
-    
+    margin: 25px;
+    transition: all 0.3s ease-in-out;
+    border-radius: 5px;
+}
+
+.moldura:hover {
+    transform: scale(1.05); /* Aumenta levemente */
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.3); /* Adiciona sombra */
 }
 
 iframe {
@@ -97,6 +118,12 @@ iframe {
     height: 100%;
     border: none;   
 }
+
+.legenda {
+    color: #8e8c83;
+}
+
+
 
 
 
