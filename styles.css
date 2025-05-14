@@ -167,6 +167,10 @@ i:hover {
   perspective: 1000px;
 }
 
+.card-inner img {
+  width: auto;
+}
+
 .card-inner {
   width: 100%;
   height: 100%;
