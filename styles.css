@@ -161,18 +161,25 @@ i:hover {
     font-size: 2em;
 }
 
-#caixas {
+#contact {
+    background-color: #e2dddd;
     display: flex;
-    flex-direction: row;
-    justify-content: center;
-    flex-wrap: wrap; /* Permite que os itens se movam para a próxima linha */
-    gap: 40px;
 }
 
-#caixas img {
+
+
+#cont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 10px;
     width: 600px;
-    height: 379px;
+    height: 400px;
 }
+
+
 
 
 
