@@ -164,20 +164,18 @@ i:hover {
 #contact {
     background-color: #e2dddd;
     display: flex;
-}
-
-
-
-#cont {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     flex-direction: column;
-    background-color: white;
-    border-radius: 10px;
-    width: 600px;
-    height: 400px;
+    gap: 60px;
 }
+
+input {
+    background-color: transparent;
+    border-radius: 5px;
+    height: 25px;
+}
+
+
+
 
 
 
