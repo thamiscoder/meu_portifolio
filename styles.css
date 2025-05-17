@@ -46,6 +46,10 @@ a:hover {
     color: #8e8c83;
 }
 
+main {
+    width: 100%;
+}
+
 section {
     display: flex;
     flex-direction: column;
